@@ -3,7 +3,7 @@ import Event from './/event_details'
 function Hero() {
   return (
     <>
-      <div className="flex text-white ml-12 mt-32 gap-6 flex-wrap">
+      <div className="flex text-white ml-12 mt-24 gap-6 flex-wrap">
           <div className="text-white">
             <h1 className="text-3xl font-bold text-white "> YYZHacks ✈️
             </h1>
@@ -15,7 +15,7 @@ function Hero() {
               <br />
 
             </p>
-            <hr className="mt-4 sm:ml-3 border-4 border-blue-500" />
+            <hr className="mt-4 md:ml-3 border-4 border-blue-500" />
            
               <Event />
 </div>

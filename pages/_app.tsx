@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps}: AppProps) {
   return (
     <>
       <div>
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
     <Meta />
           <Component {...pageProps} />
         <div>

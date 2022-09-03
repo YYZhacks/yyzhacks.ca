@@ -1,15 +1,21 @@
 function Faq() {
   return (
     <>
-      <div className="flex text-white ml-12 mt-32 gap-6 flex-wrap gap-y-4">
-         <div>
-          <h1 className="font-semibold text-lg"> What is a Hackathon</h1>
-        <p > A Hackathon is where teenagers gather together to build projects with code <br />
-        and get the chance to expriment and explore outside their comfort levels and the box. 
-        It's a place where both beginers, and intermediate students get the chance to learn, and meet new people</p></div>
+      <div className="flex">
+        <div className="ml-12 mt-24 text-white leading-loose">
+        <h1 className="font-semibold text-2xl"> What's a Hackathon? </h1>
+        <p className="text-lg"> 
+        Hackathons don't include any <span className="bg-yellow-200 text-black font-bold"> "Hacking" </span> <br />   in the way you think.
+        Insted Hackathons are where <span className="bg-yellow-200 text-black font-bold"> People of all Skill Levels </span> <br />
+        come together to build something with <span className="bg-yellow-200 text-black font-bold"> with code in a short span of time </span> <br />
+  
+        <a href="https://hackthenorth.com" className=" underline text-m font-bold text-yellow-200"> Take a look at Hack the North, another in-person Hackathon in Waterloo!</a>
+        <hr className="border-4 border-blue-500" /> <br />
+        </p> 
+    
         </div>
-
-    </>
+        </div>
+        </>
   )
 }
 
