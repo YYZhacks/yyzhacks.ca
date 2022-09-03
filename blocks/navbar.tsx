@@ -2,7 +2,6 @@ function Nav() {
   return (
     <nav className="flex justify-center items-center mt-6 gap-x-4 text-white">
       <div className="mb-12 space-x-6 sm:space-y-4 md:space-y-4"> 
-      <img src="https://i.imgur.com/4ZQZ9Zu.png" alt="logo" className="w-24 h-24" />
         <span> Schedule</span>
         <span> FAQ</span>
         <span> Sponsers</span>
