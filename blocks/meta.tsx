@@ -42,7 +42,7 @@ const Meta = () => {
             addressLocality: "TBD",
             addressRegion: "TBD",
             postalCode: "TBD",
-            addressCountry: "TBD,
+            addressCountry: "TBD",
           },
         }}
         url={url}
