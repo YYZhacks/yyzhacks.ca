@@ -1,38 +1,16 @@
 function Faq() {
-return (
-<>
-    <div>
-    <h2 className="text-lg"> FAQ</h2>
-  <h3 className="font-bold mt-12 text-center">
-    What is a Hackathon 
-    </h3>
-    <p>
-  <blockquote> 
-  Hackathons are where teenagers or universty/college students gather together
-  </blockquote>
-    </p>
-    <br />
-     <h3 className="font-bold">
-    What is a Hackathon
-    </h3>
-    <p>
-  <quote> 
-  Hackathons are where teenagers or universty/college students gather together
-  </quote>
-    </p>
-    <br />
-     <h3 className="font-bold">
-    What is a Hackathon 
-    </h3>
-    <p>
-  <blockquote> 
-  Hackathons are where teenagers or universty/college students gather together
-  </blockquote>
-    </p>
- </p>
- </>
+  return (
+    <>
+      <div className="flex text-white ml-12 mt-32 gap-6 flex-wrap gap-y-4">
+         <div>
+          <h1 className="font-semibold text-lg"> What is a Hackathon</h1>
+        <p > A Hackathon is where teenagers gather together to build projects with code <br />
+        and get the chance to expriment and explore outside their comfort levels and the box. 
+        It's a place where both beginers, and intermediate students get the chance to learn, and meet new people</p></div>
+        </div>
 
-)
+    </>
+  )
 }
 
 export default Faq
