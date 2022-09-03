@@ -30,7 +30,7 @@ const Meta = () => {
         }}
       />
       <EventJsonLd
-        name="YYZHacks"
+        name="YYZHacks Missisauga"
         startDate="2022-09-18T09:00:00-07:00"
         endDate="2022-09-18T21:00:00-07:00"
         eventStatus="https://schema.org/EventScheduled"
